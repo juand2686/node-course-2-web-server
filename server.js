@@ -28,12 +28,12 @@ app.use((req, res, next)=> {
     next();
 });
 
-app.use((req, res, next) => {
-    res.render('underCons',{
-        message : 'this Web site is under construction now'
-    });
+// app.use((req, res, next) => {
+//     res.render('underCons',{
+//         message : 'this Web site is under construction now'
+//     });
     
-});
+// });
 
 app.get('/home',(req, res)=>{
     res.render('home.hbs',{
