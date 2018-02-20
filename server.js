@@ -56,6 +56,10 @@ app.get('/bad', (req, res) => {
     });
 });
 
+app.get('/process', (req, res) => {
+    res.render('process')
+})
+
 
 
 
